@@ -1,6 +1,6 @@
 immutable_var=(1,2,'a','b',False,55,'String')
 print('Immutable tuple:',immutable_var)
-#immutable_var[1]=66
+#immutable_var[1]=66#try to change an element
 mutable_list=[1,2,'a','b',False,55,"string"]
 mutable_list[4]=True
 mutable_list[5]=99.3
